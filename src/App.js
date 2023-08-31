@@ -45,8 +45,7 @@ function App() {
          </div> 
          </div>
          <div className='rdp'>
-            <SlLocationPin id='loc' size={20}/><a className='loctxt'>Praça Centenária , nº 335,<br/>
-             Centro, São Francisco/MG</a>
+            <SlLocationPin id='loc' size={20}/><a className='loctxt'>Praça do Centenário, 335 - CENTRO,<br/> São Francisco - MG</a>
           </div>
         <element class='header-container'>
           

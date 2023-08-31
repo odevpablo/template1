@@ -115,6 +115,9 @@
   left: 30%;
   position: absolute;
 }
+.profile a{
+  color: black;
+}
 
 @keyframes slide-in{
   from {
