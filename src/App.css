@@ -24,6 +24,8 @@
   font-family:'Calibri Light', sans-serif;
 }
 .profile{
+  font-family:'Calibri Light', sans-serif;
+
   position: absolute;
   left: 65%;
   color: black;
@@ -36,6 +38,7 @@
   border-radius: 50%;
 }
 .bl1{
+  
   display: flex;
   width: 80px;
   height: 80px;
@@ -66,6 +69,15 @@
   margin-top: 0px;
   margin-left: 100px;
   margin-right: 0;
+  left: 60%;
+}
+#emailrf{
+  left: 85%;
+  position: absolute;
+}
+#wpprf{
+  left: 93%;
+  position: absolute;
 }
 
 .bl2{
@@ -111,6 +123,7 @@
   left: 50%;
 }
 .loctxt{
+  font-family:'Calibri Light', sans-serif;
   top: 18%;
   left: 30%;
   position: absolute;
@@ -154,7 +167,13 @@
     left: 50px;
 
   }
-  
+  #emailrf{
+    left: 50%;
+    }
+  #wpprf{
+    left: 60%;
+  }
+
   .text{
     left: 0px;
   }

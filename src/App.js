@@ -38,10 +38,8 @@ function App() {
               Raphael Simões de Moraes Neto
               <br></br> OAB/MG 220.210
               </p>
-              <div className='iconrf-container'>
-              <a  href='mailto:raphaelnetoadv@gmail.com'><AiOutlineMail size={30}/></a>
-              <a href='https://api.whatsapp.com/send/?1=pt_BR&phone=553899675176'><AiOutlineWhatsApp size={30}/></a>
-              </div>
+              <a href='mailto:raphaelnetoadv@gmail.com'><AiOutlineMail id='emailrf' size={30}/></a>
+              <a href='https://api.whatsapp.com/send/?1=pt_BR&phone=553899675176'><AiOutlineWhatsApp id='wpprf'size={30}/></a>
          </div> 
          </div>
          <div className='rdp'>
