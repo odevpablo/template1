@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-         <h1 className='title'>RP Advocacia 
+         <h1 className='title'>Advocacia 
          <br></br>e Consultoria Jurídica</h1>
          <img src={Logo} width={150} alt="RpAdvocacia" title='rp' id='logo'/>
          <div className='profile'>
