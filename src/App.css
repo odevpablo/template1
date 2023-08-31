@@ -116,7 +116,7 @@
   position: absolute;
 }
 .profile a{
-  color: black;
+  color: rgb(2, 1, 1);
 }
 
 @keyframes slide-in{
