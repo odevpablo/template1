@@ -22,9 +22,10 @@ function App() {
           <div className='bl1'>
           </div>
               <p className='text'>
-                Ricardo Pereira Alves
-                <br></br>
-                OAB/MG 153.242
+                Ricardo Pereira Alves 
+              </p>
+              <p className='oab'>
+              OAB/MG 153.242
               </p>
               <div className='icon-container'>
               <a className='emrf' href='mailto:rpadvocaciasf@gmail.com'><AiOutlineMail size={30}/></a>
@@ -36,12 +37,14 @@ function App() {
           </div>
               <p className='textrf'>
               Raphael Simões de Moraes Neto
-              <br></br> OAB/MG 220.210
+              </p>
+              <p className='oabrf'>OAB/MG 220.210
               </p>
               <a href='mailto:raphaelnetoadv@gmail.com'><AiOutlineMail id='emailrf' size={30}/></a>
               <a href='https://api.whatsapp.com/send/?1=pt_BR&phone=553899675176'><AiOutlineWhatsApp id='wpprf'size={30}/></a>
          </div> 
          </div>
+         
          <div className='rdp'>
             <SlLocationPin id='loc' size={20}/><a className='loctxt'>Praça do Centenário, 335 - CENTRO,<br/> São Francisco - MG</a>
           </div>

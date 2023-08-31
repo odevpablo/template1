@@ -56,7 +56,9 @@
   left: 86%;
 }
 .text {
+  font-size: 20px;
   margin-left: 20px;
+  font-weight: bold;
 }
 
 .container {
@@ -66,10 +68,17 @@
 }
 
 .textrf{
+  font-size: 20px;
+  font-weight: bold;
   margin-top: 0px;
   margin-left: 100px;
   margin-right: 0;
   left: 60%;
+}
+.oabrf{
+  position: absolute;
+  top: 74%;
+  left: 26%;
 }
 #emailrf{
   left: 85%;
@@ -89,6 +98,12 @@
   background-image: url(./imgs/pf2.png);
   border-radius: 50%;
   background-size: 80px;
+}
+
+.oab{
+  left: 26%;
+  top: 20%;
+  position: absolute;
 }
 
 .header-container{
@@ -131,6 +146,7 @@
 .profile a{
   color: rgb(2, 1, 1);
 }
+
 
 @keyframes slide-in{
   from {
@@ -197,6 +213,13 @@
   }
   .loctxt{
     left: 18%;
+  }
+  .oab{
+    margin-left: 10%;
+  }
+  .oabrf{
+    margin-top: 8%;
+    margin-left: 10%;
   }
 }
 
