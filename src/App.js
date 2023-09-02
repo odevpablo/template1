@@ -18,7 +18,6 @@ function App() {
          <img src={Logo} width={150} alt="RpAdvocacia" title='rp' id='logo'/>
          <div className='profile'>
           <div className='container'>
-
           <div className='bl1'>
           </div>
               <p className='text'>

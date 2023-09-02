@@ -118,11 +118,10 @@
   background-image: url('/src/imgs/background.jpg'); /* Substitua pelo caminho correto da sua imagem */
   background-size: cover;
   background-position: center;  border-radius: 2px;
-  opacity: 96%;
+  opacity: 60%;
   background-color: #768678;
-  
-
 }
+
 .rdp{
   position: absolute;
   left: 60%;
