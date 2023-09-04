@@ -85,7 +85,7 @@
   position: absolute;
 }
 #wpprf{
-  left: 93%;
+  left: 92%;
   position: absolute;
 }
 
@@ -118,7 +118,7 @@
   background-image: url('/src/imgs/background.jpg'); /* Substitua pelo caminho correto da sua imagem */
   background-size: cover;
   background-position: center;  border-radius: 2px;
-  opacity: 60%;
+  opacity: 70%;
   background-color: #768678;
 }
 
@@ -186,7 +186,7 @@
     left: 50%;
     }
   #wpprf{
-    left: 60%;
+    left: 59%;
   }
 
   .text{
