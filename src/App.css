@@ -115,7 +115,7 @@
   height: 100vh;
   width: 60%;
   max-width: 980px;
-  background-image: url('/src/imgs/background.jpg'); /* Substitua pelo caminho correto da sua imagem */
+  background-image: url('/src/imgs/background.jpg'); 
   background-size: cover;
   background-position: center;  border-radius: 2px;
   opacity: 70%;

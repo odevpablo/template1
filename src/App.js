@@ -8,7 +8,6 @@ import img1 from "./imgs/pf1.png"
 import img2 from "./imgs/pf2.png"
 
 
-
 function App() {
   return (
     <div className="App">
@@ -28,7 +27,7 @@ function App() {
               </p>
               <div className='icon-container'>
               <a className='emrf' href='mailto:rpadvocaciasf@gmail.com'><AiOutlineMail size={30}/></a>
-              <a href='https://api.whatsapp.com/send/?1=pt_BR&phone=553899675176'><AiOutlineWhatsApp size={30}/></a>
+              <a href='http://api.whatsapp.com/send/?1=pt_BR&phone=5538999664763'><AiOutlineWhatsApp size={30}/></a>
               </div>
               </div>
           <div className='container-two'>
