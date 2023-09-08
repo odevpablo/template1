@@ -37,14 +37,71 @@
 
   border-radius: 50%;
 }
+#profilerc{
+  background-color: #ffffff3f;
+  opacity: 0%;
+  top: 0px;
+  left: 1px;
+  position: absolute;
+  display: flex;
+}
+#profilerc:hover{
+  opacity: 35%;
+  transition: 1s;
+}
 .bl1{
-  
   display: flex;
   width: 80px;
   height: 80px;
   background-image: url(./imgs/pf1.png);
   background-size: 90px;
   border-radius: 50%;
+}
+.square {
+  background-color: #ffffff3f;
+  border-radius: 50%;
+  height: 80px;
+  opacity: 0;
+  top: 0px;
+  position: absolute;
+  display: flex;
+
+ }
+ .square:hover{
+  opacity: 35%;
+  transition: 1s;
+
+ }
+
+.box{
+  position: absolute;
+  left: 50%;
+  align-content: center;
+  align-items: center;
+  left: 20%;
+  position: absolute;
+  width: 250px;
+  height: 150px;
+  padding: 35px;
+  background-color: #f20000;
+  z-index: 999;
+}
+
+.viewrc{
+  display: none;
+  align-content: center;
+  align-items: center;
+  left: 20%;
+  position: absolute;
+  width: 250px;
+  height: 150px;
+  padding: 35px;
+  background-color: #f20000;
+}
+#igrc{
+  position: absolute;
+  top: 155px;
+  left: 147px;
 }
 .icon-container{
   margin-left: 90px;
@@ -219,6 +276,9 @@
   .oabrf{
     margin-top: 8%;
     margin-left: 10%;
+  }
+  .viewrc{
+    left: 0;
   }
 }
 

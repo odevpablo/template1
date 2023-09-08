@@ -1,23 +1,51 @@
+import './index.js';
 import './App.css';
+import { useState } from 'react';
 import {SlLocationPin} from "react-icons/sl"
-import { AiOutlineMail, AiOutlineWhatsApp } from "react-icons/ai"
+import { AiOutlineMail,
+         AiOutlineWhatsApp, 
+         AiOutlineInstagram,
+         AiOutlineArrowsAlt } from "react-icons/ai"
 import { Link } from 'react-router-dom';
-
 import Logo from "./imgs/logorpadv.jpg"
 import img1 from "./imgs/pf1.png"
 import img2 from "./imgs/pf2.png"
 
 
-function App() {
+function Square(){
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
+
   return (
+    <div>
+      <button className='square' onClick={toggleVisibility} ><AiOutlineArrowsAlt size={65}/></button>
+      {isVisible && <div className='box'></div>}
+    </div>
+  );
+  
+}
+
+
+function App() {
+  
+  return (
+    
     <div className="App">
       <header className="App-header">
          <h1 className='title'>Advocacia 
          <br></br>e Consultoria Jurídica</h1>
          <img src={Logo} width={150} alt="RpAdvocacia" title='rp' id='logo'/>
-         <div className='profile'>
+         <div className='profile' >
           <div className='container'>
+          <Square/>
           <div className='bl1'>
+            <div className='viewrc'>
+              <a href='https://www.instagram.com/ricardo.alvessf/'>
+                <AiOutlineArrowsAlt id='igrc' size={30}/></a>
+            </div>
           </div>
               <p className='text'>
                 Ricardo Pereira Alves 
@@ -32,6 +60,9 @@ function App() {
               </div>
           <div className='container-two'>
           <div className='bl2'>
+          <div className='viewrf'>
+
+          </div>
           </div>
               <p className='textrf'>
               Raphael Simões de Moraes Neto
@@ -51,7 +82,7 @@ function App() {
             <br/> São Francisco - MG</a>
           </div>
         <element class='header-container'>
-          
+        
         </element>
       </header>
     </div>
