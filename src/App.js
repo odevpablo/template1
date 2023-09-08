@@ -12,7 +12,7 @@ import img1 from "./imgs/pf1.png"
 import img2 from "./imgs/pf2.png"
 
 
-function Square(){
+function Openviewrc(){
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
@@ -21,11 +21,43 @@ function Square(){
 
   return (
     <div>
-      <button className='square' onClick={toggleVisibility} ><AiOutlineArrowsAlt size={65}/></button>
-      {isVisible && <div className='box'></div>}
+      <button className='btrc' onClick={toggleVisibility} ><AiOutlineArrowsAlt id='btrc' size={65}/></button>
+      {isVisible && <div className='boxrc'>
+      <ul>
+        <li>Descrição</li>
+        <li>Descrição</li>
+        <li>Descrição</li>
+      </ul>
+      <a href='https://www.instagram.com/ricardo.alvessf/'>
+                <AiOutlineInstagram id='igrc' size={30}/></a>
+            </div>}
     </div>
   );
   
+}
+
+function Openviewrf(){
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
+
+  return (
+    <div>
+      <button className='btrf' onClick={toggleVisibility} ><AiOutlineArrowsAlt id='btrf' size={65}/></button>
+      {isVisible && <div className='boxrf'>
+      <ul>
+        <li>Descrição</li>
+        <li>Descrição</li>
+        <li>Descrição</li>
+      </ul>
+      <a href='https://www.instagram.com/raphaelnetoadv/'>
+                <AiOutlineInstagram id='igrc' size={30}/></a>
+        </div>}
+    </div>
+  );
+
 }
 
 
@@ -40,12 +72,8 @@ function App() {
          <img src={Logo} width={150} alt="RpAdvocacia" title='rp' id='logo'/>
          <div className='profile' >
           <div className='container'>
-          <Square/>
+          <Openviewrc/>
           <div className='bl1'>
-            <div className='viewrc'>
-              <a href='https://www.instagram.com/ricardo.alvessf/'>
-                <AiOutlineArrowsAlt id='igrc' size={30}/></a>
-            </div>
           </div>
               <p className='text'>
                 Ricardo Pereira Alves 
@@ -60,6 +88,7 @@ function App() {
               </div>
           <div className='container-two'>
           <div className='bl2'>
+          <Openviewrf/>
           <div className='viewrf'>
 
           </div>
