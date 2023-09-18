@@ -345,5 +345,6 @@ map-container{
 @media (max-width: 600px){
   .rdp{
     top: 75%;
+    height: 200px;
   }
 } 
