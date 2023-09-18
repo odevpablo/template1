@@ -1,6 +1,10 @@
 import './index.js';
 import './App.css';
 import { useState } from 'react';
+import { useMemo } from 'react';
+import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
+import Openviewrc from './elements/Openviewrc.js';
+import Openviewrf from './elements/Openviewrf.js';
 import {SlLocationPin} from "react-icons/sl"
 import { AiOutlineMail,
          AiOutlineWhatsApp, 
@@ -11,54 +15,6 @@ import Logo from "./imgs/logorpadv.jpg"
 import img1 from "./imgs/pf1.png"
 import img2 from "./imgs/pf2.png"
 
-
-function Openviewrc(){
-  const [isVisible, setIsVisible] = useState(false);
-
-  const toggleVisibility = () => {
-    setIsVisible(!isVisible);
-  };
-
-  return (
-    <div>
-      <button className='btrc' onClick={toggleVisibility} ><AiOutlineArrowsAlt id='btrc' size={65}/></button>
-      {isVisible && <div className='boxrc'>
-      <ul>
-        <li>Descrição</li>
-        <li>Descrição</li>
-        <li>Descrição</li>
-      </ul>
-      <a href='https://www.instagram.com/ricardo.alvessf/'>
-                <AiOutlineInstagram id='igrc' size={30}/></a>
-            </div>}
-    </div>
-  );
-  
-}
-
-function Openviewrf(){
-  const [isVisible, setIsVisible] = useState(false);
-
-  const toggleVisibility = () => {
-    setIsVisible(!isVisible);
-  };
-
-  return (
-    <div>
-      <button className='btrf' onClick={toggleVisibility} ><AiOutlineArrowsAlt id='btrf' size={65}/></button>
-      {isVisible && <div className='boxrf'>
-      <ul>
-        <li>Descrição</li>
-        <li>Descrição</li>
-        <li>Descrição</li>
-      </ul>
-      <a href='https://www.instagram.com/raphaelnetoadv/'>
-                <AiOutlineInstagram id='igrc' size={30}/></a>
-        </div>}
-    </div>
-  );
-
-}
 
 
 function App() {
@@ -108,7 +64,7 @@ function App() {
             <a className='loctxt'>
             Praça do Centenário, 
             nº 335 - CENTRO,
-            <br/> São Francisco - MG</a>
+            São Francisco - MG</a>
           </div>
         <element class='header-container'>
         
