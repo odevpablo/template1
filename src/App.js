@@ -64,6 +64,7 @@ function App() {
             <a className='loctxt'>
             Praça do Centenário, 
             nº 335 - CENTRO,
+            <br/>
             São Francisco - MG</a>
           </div>
         <element class='header-container'>
