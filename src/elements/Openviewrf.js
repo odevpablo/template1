@@ -17,11 +17,7 @@ function Openviewrf(){
     <div>
       <button className='btrf' onClick={toggleVisibility} ><AiOutlineArrowsAlt id='btrf' size={65}/></button>
       {isVisible && <div className='boxrf'>
-      <ul>
-        <li>Descrição</li>
-        <li>Descrição</li>
-        <li>Descrição</li>
-      </ul>
+     
       <a href='https://www.instagram.com/raphaelnetoadv/'>
                 <AiOutlineInstagram id='igrc' size={30}/></a>
         </div>}
