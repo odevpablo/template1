@@ -58,7 +58,7 @@ button {
   height: 250px;
   background-color: #060606;
   margin: 10px;
-  animation: slideInFromLeft 2.5s ease-in-out;
+  animation: slideInFromLeft 2s ease-in-out;
 }
 h7{
   position: absolute;
@@ -75,6 +75,10 @@ h7{
   width: 80%;
   position: absolute;
   top: 480px;
+}
+.profiles a{
+  color: inherit;
+  text-decoration: none;
 }
 .profile{
   display: flex;
@@ -105,6 +109,13 @@ h8{
 #map {
   left: 0;
   top: 72%;
+  position: absolute;
+}
+footer{
+  height: 45px;
+  width: 100%;
+  background-color: rgba(252, 248, 248, 0.749);
+  top: 224.5%;
   position: absolute;
 }
 
@@ -150,7 +161,11 @@ h8{
   #map{
     top: 83%;
   }
-
+  footer {
+    top: auto;
+    bottom: 0;
+    position: fixed; /* Mantenha o rodapé no fundo da tela */
+  }
   
 }
 
