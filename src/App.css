@@ -33,7 +33,6 @@
 h1{
   position: absolute;
   font-family: 'Courier New', Courier, monospace;
-
   top: 10px;
 }
 
@@ -42,23 +41,7 @@ h2,h3,h4,h5{
   position: absolute;
   top: 250px;
   color: rgb(0, 0, 0);
-  font-weight: bold;
-  margin-left: 50px;
-  font-size: 1.5em; 
-}
-h2{
-  margin-top: 25px;
-  margin-left: 65px;
-}
-h3{
-  margin-top: 27px;
-  margin-left: 70px;
-}
-h4{
-  margin-left: 10px;
-}
-h5{
-  margin-top: 29px;
+  font-size: 1.1em; 
 }
 
 .opview {
@@ -75,12 +58,50 @@ button {
   background-color: #060606;
   margin: 10px;
 }
-#penal{
-  
-  background-repeat: no-repeat;
-  background-size: 100%;
+h7{
+  position: absolute;
+  font-weight: bold;
+  font-size: 16px;
+  top: -30px;
+}
+
+.profiles{
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  margin: 30px;
+  width: 80%;
+  position: absolute;
+  top: 480px;
+}
+.profile{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+#wpp{
+  margin-top: 20px;
+}
+.profile span{
+  font-weight: bold;
+  margin-top: 30px;
+}
+.profiles img{
+  border-radius: 50%;
+  width: 108px;
+  height: 115px;
+}
+h8{
+  position: absolute;
+  top: 65%;
+  font-weight: bold;
+}
+#location{
+  position: absolute;
+  top: 67%;
 }
 #map {
+  left: 0;
   top: 72%;
   position: absolute;
 }
@@ -88,18 +109,35 @@ button {
 
 @media (max-width: 768px) {
   .App{
-    width: 100%;
+    height: 550vh;
   }
-  .whiteboard {
-    top: 150px;
+  .view {
+    border-radius: 1em;
+    height: 500vh;
+  }
+  .opview{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  button{
+    margin: 20px;
+  }
+  h2{
+    top: 23%;
+  }
+  h3{
+    top: 48%;
+  }
+  h4{
+    top: 72%;
+  }
+  h5{
+    top: 97%;
+  }
+  .profiles{
+    top: 50%;
   }
 
-  .whiteboard p {
-    font-size: 1.5em;
-  }
-
-  .option {
-    width: 100%; /* Ocupa toda a largura da tela em telas menores */
-    max-width: none; /* Remove a limitação de largura máxima */
-  }
+  
 }

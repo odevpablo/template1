@@ -10,22 +10,27 @@ const Options = () => {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center center',
-   
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
+    padding: '10px',
   };
 
   return (
     <div className='opview'>
       <button className='option' style={{ ...buttonStyle, backgroundImage: `url(${Penal})` }}>
-        <h2>Penal</h2>
+        <h2>Direito Penal</h2>
       </button>
       <button className='option' style={{ ...buttonStyle, backgroundImage: `url(${Civil})` }}>
-        <h3>Civil</h3>
+        <h3>Direito Civil</h3>
       </button>
       <button className='option' style={{ ...buttonStyle, backgroundImage: `url(${Previdenciario})` }}>
-        <h4>Previdenciário</h4>
+        <h4>Direito <br/>Previdenciário</h4>
       </button>
       <button className='option' style={{ ...buttonStyle, backgroundImage: `url(${Trabalho})` }}>
-        <h5>Trabalho</h5>
+        <h5>Direito do Trabalho</h5>
       </button>
     </div>
   );
