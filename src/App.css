@@ -60,7 +60,7 @@ h2,h3,h4,h5{
 
 button {
   border: none;
-  width: 200px; 
+  width: 210px; 
   height: 250px;
   margin: 10px;
   animation: slideInFromLeft 2s ease-in-out;
@@ -79,7 +79,7 @@ h7{
   margin: 30px;
   width: 80%;
   position: absolute;
-  top: 480px;
+  top: 500px;
 }
 .profiles a{
   color: inherit;
