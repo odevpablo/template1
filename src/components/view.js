@@ -8,6 +8,7 @@ const View = () => {
   return (
     <div className="view">
         <h1>RP ADVOCACIA</h1>
+          <p>Áreas de Atuação</p>
         <Options/>
         <Map/>
     </div>
