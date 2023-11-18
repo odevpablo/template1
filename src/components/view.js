@@ -7,7 +7,7 @@ import Map from './map';
 const View = () => {
   return (
     <div className="view">
-        <p>Áreas de Atuação</p>
+        <h1>RP ADVOCACIA</h1>
         <Options/>
         <Map/>
     </div>
