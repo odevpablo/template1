@@ -18,7 +18,7 @@
   width: 90%; 
   max-width: 900px; 
   height: 190%;
-  background-color: rgba(252, 248, 248, 0.749);
+  background-color: #f1efefab;
   animation: slideInFromDown 1.2s ease-in-out;
   border: none;
   border-radius: 1em;
@@ -41,9 +41,15 @@ h2,h3,h4,h5{
   font-family: 'Courier New', Courier, monospace;
   position: absolute;
   top: 250px;
-  color: rgb(0, 0, 0);
+  height: 50px;
+  width: 200px;
+  background-color: #CCC8AA;
   font-size: 1.1em; 
+  margin-top: 12px;
+  border-radius: 1em;
+
 }
+
 
 .opview {
   top: 130px;
@@ -56,7 +62,6 @@ button {
   border: none;
   width: 200px; 
   height: 250px;
-  background-color: #060606;
   margin: 10px;
   animation: slideInFromLeft 2s ease-in-out;
 }
@@ -129,7 +134,11 @@ footer{
     width: 98%;
     height: 500vh;
   }
+  button{
+    width: 96vw;
+  }
   .opview{
+    
     display: flex;
     flex-wrap: wrap;
   }
@@ -138,16 +147,16 @@ footer{
     margin: 20px;
   }
   h2{
-    top: 23%;
+    top: 21%;
   }
   h3{
-    top: 48%;
+    top: 46%;
   }
   h4{
-    top: 72%;
+    top: 71%;
   }
   h5{
-    top: 97%;
+    top: 96%;
   }
   .profiles{
     top: 55%;
