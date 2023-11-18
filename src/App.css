@@ -19,6 +19,7 @@
   max-width: 900px; 
   height: 190%;
   background-color: rgba(252, 248, 248, 0.749);
+  animation: slideInFromDown 1.2s ease-in-out;
   border: none;
   border-radius: 1em;
   display: flex;
@@ -57,6 +58,7 @@ button {
   height: 250px;
   background-color: #060606;
   margin: 10px;
+  animation: slideInFromLeft 2.5s ease-in-out;
 }
 h7{
   position: absolute;
@@ -149,4 +151,21 @@ h8{
   }
 
   
+}
+
+@keyframes slideInFromDown {
+  0% {
+    transform: translateY(90%); 
+  }
+  100% {
+    transform: translateY(0); 
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%); 
+  }
+  100% {
+    transform: translateX(0); 
+  }
 }
