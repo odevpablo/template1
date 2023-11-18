@@ -1,0 +1,70 @@
+/* Estilos base */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  text-align: center;
+  background-image: url('imgs/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.whiteboard {
+  position: absolute;
+  top: 250px;
+  width: 90%; /* Alterado para uma porcentagem responsiva */
+  max-width: 900px; /* Limita a largura máxima para telas grandes */
+  height: 155%;
+  background-color: rgba(252, 248, 248, 0.749);
+  border: 1px solid;
+  border-radius: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whiteboard p {
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  top: 10px;
+  font-weight: bold;
+  font-size: 2em; /* Tamanho da fonte responsivo */
+}
+
+.opview {
+  top: 130px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+}
+
+.option {
+  border: none;
+  width: 90%; /* Alterado para uma porcentagem responsiva */
+  max-width: 200px; /* Limita a largura máxima para telas grandes */
+  height: 200px;
+  background-color: #ccc;
+  margin: 10px;
+}
+
+#map {
+  top: 62%;
+  position: absolute;
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+  .whiteboard {
+    top: 150px;
+  }
+
+  .whiteboard p {
+    font-size: 1.5em;
+  }
+
+  .option {
+    width: 100%; /* Ocupa toda a largura da tela em telas menores */
+    max-width: none; /* Remove a limitação de largura máxima */
+  }
+}
