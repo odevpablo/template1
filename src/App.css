@@ -136,7 +136,16 @@ h8{
     top: 97%;
   }
   .profiles{
-    top: 50%;
+    top: 55%;
+  }
+  h8{
+    top: 78%;
+  }
+  #location{
+    top: 79%;
+  } 
+  #map{
+    top: 83%;
   }
 
   
