@@ -44,6 +44,8 @@ h2,h3,h4,h5{
   height: 50px;
   width: 200px;
   background-color: #CCC8AA;
+  color: inherit;
+  text-decoration: none;
   font-size: 1.1em; 
   margin-top: 12px;
   border-radius: 1em;
