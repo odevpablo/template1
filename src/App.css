@@ -115,6 +115,7 @@ h8{
   }
   .view {
     border-radius: 1em;
+    width: 98%;
     height: 500vh;
   }
   .opview{
