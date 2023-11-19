@@ -140,7 +140,6 @@ footer{
     width: 96vw;
   }
   .opview{
-    
     display: flex;
     flex-wrap: wrap;
   }
@@ -178,6 +177,15 @@ footer{
     position: fixed; /* Mantenha o rodapé no fundo da tela */
   }
   
+}
+@media (max-width: 312px){
+  .profiles{
+    top: 50%;
+  }
+  #map{
+    top: 78%;
+  }
+
 }
 
 @keyframes slideInFromDown {
