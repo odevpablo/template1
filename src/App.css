@@ -129,12 +129,12 @@ footer{
 
 @media (max-width: 768px) {
   .App{
-    height: 300vh;
+    height: 420vh;
   }
   .view {
     border-radius: 1em;
     width: 98%;
-    height: 300%;
+    height: 350%;
   }
   button{
     width: 96vw;
@@ -161,7 +161,7 @@ footer{
     top: 96%;
   }
   .profiles{
-    top: 50%;
+    top: 80%;
   }
   h8{
     top: 61%;
@@ -179,19 +179,33 @@ footer{
   }
   
 }
-@media (max-width: 312px){
+@media (max-width: 321px){
+  .App{
+    height: 450vh;
+  }
   .profiles{
-    top: 50%;
+    top: 60%;
+  }
+  .view{
+    height: 400%;
   }
   #map{
-    top: 78%;
+    top: 8%;
   }
   footer {
     top: auto;
     bottom: 0;
     position: fixed; 
   }
-
+  h8{
+    top: 75%;
+  }
+  #location{
+    top: 76%;
+  }
+  #map{
+    top: 80%;
+  }
 }
 
 @keyframes slideInFromDown {
