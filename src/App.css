@@ -175,7 +175,7 @@ footer{
   footer {
     top: auto;
     bottom: 0;
-    position: fixed; /* Mantenha o rodapé no fundo da tela */
+    position: fixed; 
   }
   
 }
@@ -189,7 +189,7 @@ footer{
   footer {
     top: auto;
     bottom: 0;
-    position: fixed; /* Mantenha o rodapé no fundo da tela */
+    position: fixed; 
   }
 
 }
