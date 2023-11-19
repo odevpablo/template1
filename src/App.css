@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 230vh;
+  height: 250vh;
   text-align: center;
   background-image: url('imgs/background.jpg');
   background-size: cover;
@@ -122,7 +122,7 @@ footer{
   height: 45px;
   width: 100%;
   background-color: rgba(252, 248, 248, 0.749);
-  top: 224.5%;
+  top: 244%;
   position: absolute;
 }
 
