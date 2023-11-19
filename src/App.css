@@ -127,14 +127,14 @@ footer{
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 623px) {
   .App{
-    height: 420vh;
+    height: 450vh;
   }
   .view {
     border-radius: 1em;
     width: 98%;
-    height: 350%;
+    height: 400%;
   }
   button{
     width: 96vw;
@@ -161,16 +161,16 @@ footer{
     top: 96%;
   }
   .profiles{
-    top: 80%;
+    top: 55%;
   }
   h8{
-    top: 61%;
+    top: 71%;
   }
   #location{
-    top: 62%;
+    top: 72%;
   } 
   #map{
-    top: 65%;
+    top: 75%;
   }
   footer {
     top: auto;
@@ -179,7 +179,8 @@ footer{
   }
   
 }
-@media (max-width: 321px){
+
+@media (max-width: 500px){
   .App{
     height: 450vh;
   }
@@ -190,7 +191,7 @@ footer{
     height: 400%;
   }
   #map{
-    top: 8%;
+    top: 86%;
   }
   footer {
     top: auto;
