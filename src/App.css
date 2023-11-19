@@ -129,18 +129,19 @@ footer{
 
 @media (max-width: 768px) {
   .App{
-    height: 550vh;
+    height: 300vh;
   }
   .view {
     border-radius: 1em;
     width: 98%;
-    height: 500vh;
+    height: 300%;
   }
   button{
     width: 96vw;
   }
   .opview{
     display: flex;
+    width: 100vw;
     flex-wrap: wrap;
   }
   
@@ -160,16 +161,16 @@ footer{
     top: 96%;
   }
   .profiles{
-    top: 55%;
+    top: 50%;
   }
   h8{
-    top: 78%;
+    top: 61%;
   }
   #location{
-    top: 79%;
+    top: 62%;
   } 
   #map{
-    top: 83%;
+    top: 65%;
   }
   footer {
     top: auto;
@@ -184,6 +185,11 @@ footer{
   }
   #map{
     top: 78%;
+  }
+  footer {
+    top: auto;
+    bottom: 0;
+    position: fixed; /* Mantenha o rodapé no fundo da tela */
   }
 
 }
